@@ -1,0 +1,33 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  margin: 4rem;
+}
+
+h1 {
+  height: 10rem;
+  text-align: left;
+  color: aliceblue;
+  background-image: url(/assets/sfondo_tombolaTV_classica-1024x512.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tabellone {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+h3 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+#pulsante {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  border: 2px solid salmon;
+}
